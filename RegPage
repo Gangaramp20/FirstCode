@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration Page</title>
+		<style>
+         	.myform{
+         		width: 600px;
+         		height:60px;
+         		padding: 1px;
+         		background-color: #778899;
+         		text-align: center;
+         	}
+         	.myform:hover{
+         		background-color:#DCDCDC;
+         	}
+         	.mydata{
+         		padding: 1px;
+         		width: 600px;
+         		height: 600px;
+         		background-color:#C0C0C0;
+         	}
+         	.mydata:hover{
+         		background-color:#DCDCDC;
+         	}
+         	h1{
+         		font-size:30px;
+         	}
+         </style>
+	</head>
+	<body>
+		<center>
+		     	<form action=" " method="Get">
+		     	<div class="myform">
+			 <h1>Employee Registration Form</h1>
+			     </div>
+				 <div class="mydata">
+				 <b>First Name:</b><br>
+				 <input type="text"name="fname" value="" style="padding:3px "><br>
+				 <br>
+				 <b>Last Name:</b><br>
+				 <input type="text"name="lname" value="" style="padding:3px "><br><br>
+
+				 <b>Choose Your Password</b><br>
+				 <input type="password"name="pass" value="" style="padding:3px "><br><br>
+				 
+				 <b>Confirm Your Password</b><br>
+				 <input type="password"name="pass" value="" style="padding:3px "><br><br>
+				 
+				 <b>Select Your Gender</b><br>
+				 Male<input type="radio" name="gender" value="male">
+				 Female<input type="radio" name="gender" value="female">
+				 Others<input type="radio" name="gender" value="others">
+				 <br><br>
+				 
+				 <b>What do you want:</b><br>
+				 Car<input type="checkbox"name="reva" value="car">
+				 Bike<input type="checkbox"name="reva" value="bike">
+				 Money<input type="checkbox"name="reva" value="money">
+				 <br><br>
+				 
+				 <p><b>Select your city:</b><br></p>
+				 <select name="city" style="padding:5px ">
+				 <option value="del">Delhi</option>
+				 <option value="luck">Lucknow</option>
+				 <option value="mum">Mumbai</option>
+				 <option value="goa">Goa</option>
+				 <option value="ahm">Ahamadabad</option>
+				 </select>
+				 <br>
+				 <p><a href="www.gmail.com;" style="color:blue;">www.google.com</a></p>
+				 <br>				 
+				 <p><input type="Submit" button="Submit your form" style="padding:3px "></p>
+				 <p><input type="Reset" button="reset this forms" style="padding:3px "> </p>
+				 
+				
+				</div>
+			</form>>
+		</center>
+	</body>
+</html>
